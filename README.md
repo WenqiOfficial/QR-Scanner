@@ -1,2 +1,23 @@
-# QR-Scanner
-A Linux simple QR code scanner baised on zbarimg command line.
+**简体中文** | [English](README_en.md)
+
+# 二维码扫描器
+
+基于 zbarimg 命令行的 Linux 批量二维码扫描器
+
+## 一些些重要的事情
+
+确保你的系统中已经安装了`zbarimg`！
+
+## 咋用？
+
+1.将含有二维码的图片文件放入"./input"文件夹中.(支持的文件类型: .png .jpg .jpeg)
+
+2.在*终端*里或是直接运行"scanner.sh".
+
+3.等待处理过程...
+
+4.完成！ 每个图片文件的扫描结果都保存到"[文件名][类型].txt"的单个文件和".all.txt"文件中了.(存放在"./input/[扫描日期]"文件夹里).
+
+## 后话
+
+也就是为了方便电脑上批量扫描二维码搞出来的这个命令...已经为这坨代码加上相应注释了...ಠ_ಠ
